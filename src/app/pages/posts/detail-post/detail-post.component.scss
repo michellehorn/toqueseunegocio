@@ -1,0 +1,68 @@
+:host {
+    .info-postagem {
+        padding-top: 25px;
+        min-height: 400px;
+        display: block;
+        padding-bottom: 50px;
+        .titles {
+            font-size: 28px;
+            display: block;
+        }
+
+        .author {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .subtitle {
+            margin-top: 25px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            font-family: 'Roboto', 'sans serif';
+        }
+        .text.subtitle {
+            font-size: 19px;
+        }
+        .justify-data {
+            margin-bottom: 10px;
+        }
+
+        span.text {
+            display: block;
+        }
+        .image {
+            text-align: center;
+            img {
+                max-width: 450px;
+                box-shadow: 1px 1px 10px gray;
+                margin: 15px 0px;
+            }
+        }
+
+        .links {
+            margin-bottom: 10px;
+            word-wrap: break-word;
+            i {
+                margin-right: 8px;
+                text-shadow: 1px 1px 10px #75aac0;
+            }
+            text-align: right;
+            
+        }
+    }
+
+    .form-inline.col-md-12 {
+        input {
+            margin-right: 10px;
+            width: 100%;
+        }
+        margin-bottom: 12px;
+        margin-top: 12px;
+
+    }
+
+    .signin {
+        font-family: 'Roboto', 'sans serif';
+        text-shadow: 1px 1px 5px gray;
+    }
+}

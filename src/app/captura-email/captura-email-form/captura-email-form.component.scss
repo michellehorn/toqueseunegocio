@@ -1,0 +1,65 @@
+:host {
+    .card-blue {
+      margin: auto;
+      background-color: #76abc1;
+      min-height: 380px;
+      text-align: center;
+     
+  
+      div {
+        align-self: center;
+      }
+  
+      .content-middle {
+          text-align: center;
+  
+        span.title {
+          color: white;
+          font-size: 22px;
+          font-family: 'Montserrat', 'sans serif';
+          display: block;
+        }
+  
+        span.sub-text {
+          color: white;
+          font-size: 14px;
+          padding: 10px 0px;
+          font-family: 'Roboto', 'sans serif';
+        }
+  
+        input, select {
+          text-align: center;
+        }
+        button {
+          font-family: 'Montserrat', 'sans serif';
+          width: 100%;
+        }
+        * {
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .card-blue {
+        margin: auto;
+        background-color: #76abc1;
+        min-height: 380px;
+    
+    }
+  }
+
+  
+  @media screen and (min-width: 868px) {
+    .card-blue {
+      padding: 2em 26em;
+    }
+  }
+
+  @media screen and (max-width: 868px) {
+    .card-blue {
+      padding: 2em 2em;
+    }
+  }
+
+}

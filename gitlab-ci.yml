@@ -1,0 +1,11 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+test_letslearn:
+  script:
+    - npm install
+    - ng build --prod
+    - firebase deploy

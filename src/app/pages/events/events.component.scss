@@ -1,0 +1,25 @@
+:host {
+    img {
+        max-width: 800px;
+        max-height: 500px;
+    }
+
+    .form-inline  {
+        margin-top: 10px;
+        input {
+            width: 100%;
+            margin-right: 10px;
+        }
+    }
+    .mobile {
+        text-align: center;
+        img {
+            max-width: 300px;
+            padding-right: 15px;
+        }
+        input {
+            margin-bottom: 8px;
+            width: 100%;
+        }
+    }
+}

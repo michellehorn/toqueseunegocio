@@ -1,0 +1,19 @@
+<section class="card-blue" id="form-lead-container">
+  <div class="content-middle">
+    <span class="title">Cadastre-se para <b>aprender</b> mais e receber conteúdo prático sobre <b>negócios!</b></span>
+    <span class="sub-text"> Fique tranquilo, nós também odiamos SPAM! Só enviaremos conteúdos <b>INTERESSANTES!!</b></span>
+    <br>
+    <br>
+    <form class="content-middle" #f="ngForm" (submit)="form_submit(f)">
+    
+      <input class="form-control" type="email" ngModel name="email" placeholder="Informe seu e-mail" required>
+      <input type="text" ngModel name="nome" placeholder="Informe seu nome completo" class="form-control" required>
+      <label for="tipo">Você já possui empresa?</label>
+      <select [(ngModel)]="tipo" name="tipo" class="custom-select" id="hasCompany" placeholder="Você tem empresa?">
+        <option value="B2B">Sim</option>
+        <option value="B2C" selected>Não</option>
+      </select>
+      <button class="btn btn-success send-btn" id="form-submit" type="submit">CADASTRAR</button>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,162 @@
+:host {
+  .navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 2px 2px gray;
+    z-index: 10;
+
+    .container {
+      padding: 0;
+    }
+
+  }
+  
+  .navbar-nav {
+    .nav-item {
+      font-size: 18px;
+      a {
+        color: #75aac0;
+      }
+      @media (min-width: 992px) {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 16px;
+        margin-right: 28px;
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    .navbar-container {
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+
+      .nav-item {
+        padding: 4px 0;
+      }
+    }
+    .content-button {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  
+  .logo img {
+    background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 100px 0px 80px 0px;
+    box-shadow: 1px 1px 10px #76abc1;
+    max-width: 120px;
+    @media (min-width: 768px) {
+      max-width: 150px;
+    }
+  }
+
+  .item-nav {
+    line-height: 20px;
+    margin-left: 10px;
+  }
+
+  .navbar-toggler {
+    background-color: rgba(128, 128, 128, 0.247);
+    position: relative;
+  }
+
+  .navbar-toggler-icon {
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 26px;
+      height: 1px;
+      background: rgba(#fff, .5);
+      transition: 0.15s;
+    }
+
+    &::before {
+      margin-top: -3px;
+    }
+    &::after {
+      margin-top: 3px;
+    }
+  }
+  .navbar-toggler[aria-expanded="true"] {
+    .navbar-toggler-icon {
+      &::before,
+      &::after {
+        margin: 0;
+        width: 20px;
+      }
+
+      &::before {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      &::after {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+    }
+  }
+
+  .nav-link:hover {
+    cursor: pointer;
+    color: #0056b3;
+  }
+
+  .blink {
+    animation: blink-animation 1s steps(50, start) infinite;
+    -webkit-animation: blink-animation 1s steps(50, start) infinite;
+  }
+
+  #navbarDropdown {
+    margin-right: 40px;
+  }
+
+  .login {
+    text-align: center;
+    padding: 5px 8px;
+    input {
+      margin-bottom: 5px;
+    }
+    button {
+      width: 100%;
+    }
+  }
+  @keyframes blink-animation {
+
+    from {
+      box-shadow: 0px 0px 0px black;
+    }
+
+    to {
+      box-shadow: 2px 2px 25px #0057b3b6;
+    }
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+
+  .usuario-login {
+    .dropdown-menu.login {
+      transform: translate3d(-200px, 43px, 0px) !important;
+    }
+    @media (max-width: 991px) {
+      position: absolute;
+      top: 16px;
+      right: 50px;
+
+      .dropdown-menu.login {
+        transform: translate3d(-100px, 43px, 0px) !important;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,66 @@
+<div class="navigation bg-dark form-inline">
+  <div class="container">
+      <nav class="navbar navbar-expand-lg">
+          <a class="logo" [routerLink]="['/']">
+            <img src="../../../assets/images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <div class="pull-right navbar-container">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a [routerLink]="['/categoria/1']">Empreendedorismo</a></li>
+                <li class="nav-item"><a [routerLink]="['/categoria/2']">Finanças</a></li>
+                <li class="nav-item"><a [routerLink]="['/categoria/3']">Gestão de Negócios</a></li>
+                <li class="nav-item"><a [routerLink]="['/categoria/4']">Recursos Humanos</a></li>
+              </ul>
+            </div>
+              <button class="btn blink btn-info my-2 my-sm-0 content-button" (click)="goToMail()">CONTEÚDOS EXCLUSIVOS</button>
+              <span>
+                <!-- c  <i class="fas fa-search"></i> -->
+              </span>
+              
+          </div>
+        </nav>
+        
+
+  </div>
+  <!-- <div class="pull-right">
+      <ul class="navbar-nav">
+        <span class="nav-item dropdown">
+            <a class="nav-link titles dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"></i>
+            </a>
+            <div *ngIf="!loggedIn" class="dropdown-menu login" aria-labelledby="navbarDropdown">
+                <input type="text" [(ngModel)]="username" placeholder="Usuário" class="form-control">
+                <input type="password" [(ngModel)]="password" placeholder="Senha" class="form-control">
+                <button class="btn btn-outline-success" (click)="login()">Login</button>
+            </div>
+            <div *ngIf="loggedIn" class="dropdown-menu login" aria-labelledby="navbarDropdown">
+                <button class="btn btn-outline-success" (click)="logoff()">Logoff</button>
+            </div>
+          </span>
+        </ul>
+    </div> -->
+
+    <div class="pull-right usuario-login">
+      <ul class="navbar-nav">
+        <span class="nav-item dropdown">
+            <a class="nav-link titles dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"></i>
+            </a>
+            <div *ngIf="!loggedIn" class="dropdown-menu login" aria-labelledby="navbarDropdown">
+                <input type="text" [(ngModel)]="username" placeholder="Usuário" class="form-control">
+                <input type="password" [(ngModel)]="password" placeholder="Senha" class="form-control">
+                <button class="btn btn-outline-success" (click)="login()">Login</button>
+            </div>
+            <div *ngIf="loggedIn" class="dropdown-menu login" aria-labelledby="navbarDropdown">
+                <button class="btn btn-outline-success" (click)="logoff()">Logoff</button>
+            </div>
+          </span>
+        </ul>
+    </div>
+
+</div>

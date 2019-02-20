@@ -1,0 +1,7 @@
+<app-header class="header"></app-header>
+<div class="content1">
+  <router-outlet>
+  </router-outlet>
+  <app-captura-email-form *ngIf="!loggedIn"></app-captura-email-form>
+</div>
+<app-footer class="footer"></app-footer>

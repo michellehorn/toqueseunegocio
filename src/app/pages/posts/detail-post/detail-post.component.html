@@ -1,0 +1,36 @@
+<div class="info-postagem" *ngIf="this.dataPost">
+  <div class="container justify-text">
+    <span class="titles" onfocus>{{dataPost.titulo }}</span>
+    <span class="data">{{dataPost.data}}</span>
+    <span class="author">{{dataPost.autor}}</span>
+    <div class="justify-data">
+      <span class="subtitle"> {{dataPost.subtitulo}}</span>
+    </div>
+    <div class="image">
+      <img src="../../../../assets/images/{{dataPost.imagem}}" alt="">
+    </div>
+    <div class="justify-data" *ngFor="let subpost of dataPost.subPostagem">
+      <span class="text subtitle"><b>{{subpost.titulo}}</b></span>
+      <span class="text">{{subpost.texto}}</span>
+      <br>
+      <div *ngIf="subpost.links">
+        <div *ngFor="let ref of subpost.links" class="links">
+         <span class="text"><i class="fas fa-external-link-alt"></i><b>{{ref.nome}}</b>: <a href="{{ref.link}}">{{ref.link}}</a></span>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="dataPost.canvas">
+        <span class="signin"><b>CADASTRE-SE PARA LIBERAR O DOWNLOAD</b></span> 
+        <div class="form-inline col-md-12">
+            <input type="text" class="col-md-5 form-control" [(ngModel)]="user.nome" placeholder="Nome completo" name="nome" autocomplete>
+            <input type="email" class="col-md-4 form-control" [(ngModel)]="user.email" placeholder="E-mail" name="email" autocomplete>
+            <button class="btn btn-outline-info" (click)="sendData(user)">Cadastrar</button>
+          </div>
+          <div class="top-margin" *ngIf="liberaDownload">
+            <button class="btn btn-dark">
+              <a download href="../../../../assets/images/canvas.png">Clique para efetuar o download</a>
+            </button>
+          </div>
+      </div>
+  </div>
+</div>

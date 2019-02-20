@@ -1,0 +1,68 @@
+{  "postagem": [{
+      "id": "1",
+      "titulo": "MEI, EI, ME, EPP, EIRELI - Como escolher nesta sopa de letrinhas",
+      "data": "30/09/2018",
+      "subtitulo": "As siglas MEI, ME, EPP, EI e EIRELI ajudam a definir os tipos de empresas no Brasil. Agora vamos tentar simplificar os principais pontos para te ajudar a entender um pouco melhor.",
+      "subPostagem": [{
+          "id": "1",
+          "titulo": "O MEI – Microempreendedor Individual",
+          "listaSubItens": "Quem pode pedir - autônomos e profissionais liberais ao mercado de trabalho quando seu faturamento anual total for de até R$ 81 mil. Desde que não tenha sócios, contudo pode o MEI possuir um funcionário, no máximo, que receba um salário mínimo por mês. Como fazer - O cadastro é feito pela internet, no Portal do Empreendedor, que registra e fornece no ato o número de CNPJ. Vantagens -  pagamento do imposto é de valor fixo e pago mensalmente por boleto bancário. E a regulamentação é por meio de um sistema simples, há isenção de taxas e a tributação é baixa."
+        },
+        {
+          "id": "2",
+          "titulo": "ME – A Microempresa",
+          "texto": " Quem pode pedir - empresas cuja a atividade econômica não ultrapasse um faturamento superior ao valor de R$ 360 mil por ano, só há um titular, que responde totalmente pelos débitos da empresa, além dos patrimônios pessoais e empresariais que se unificarem. Tanto as sociedades empresárias quanto os empresários individuais poderão enquadrar-se nessa categoria. Como fazer - Seu cadastro é feito pela Junta Comercial Vantagens - Recebem benefícios em licitações públicas e são dispensadas da obrigatoriedade de contratar o Jovem Aprendiz."
+        },
+        {
+          "id": "3",
+          "titulo": "A EPP – Empresa de Pequeno Porte",
+          "texto": "Quem pode pedir - A empresa que possuir um faturamento anual superior ao valor de R$ 360 mil reais e inferior ao valor de R$ 4,8 milhões de reais. Tanto as sociedades empresárias quanto os empresários individuais poderão enquadrar-se nessa categoria. Basicamente se diferencia de uma ME devido ao faturamento. Como fazer - Seu cadastro é feito pela Junta Comercial Vantagens - Recebem os mesmos benefícios das MEs em licitações públicas e também são dispensadas da obrigatoriedade de contratar o Jovem Aprendiz."
+        },
+        {
+          "id": "4",
+          "titulo": "O EI – Empresário Individual",
+          "texto": "Quem pode pedir - uma pessoa física que exerce atividade empresarial com faturamento anual de até R$ 360 mil. O EI poderá também ser um ME ou EPP. O titular da empresa responde pelos seus débitos e seus patrimônios pessoais e jurídicos se misturam, ou seja, sua responsabilidade é ilimitada e ele responde pelo risco integral do negócio. Como fazer - deve registrar-se na junta comercial Vantagens - Não exige capital mínimo para a abertura e pode participar de licitações públicas."
+        },
+        {
+          "id": "5",
+          "titulo": "A EIRELI – Empresa Individual de Responsabilidade Limitada",
+          "texto": "Quem pode pedir -  A empresa precisa ter um capital social mínimo de 100 vezes o valor do salário mínimo vigente no país e ele deve estar integralizado no ato do registro, ou seja, nesse momento o titular da empresa deve possuir esse valor em dinheiro ou em bens. Também é possível para o EIRELI se enquadrar como ME e EPP, quem está na EIRELI, como titular, não mistura seus bens pessoais ao da empresa e responde com limitações aos seus débitos jurídicos. Portanto, a responsabilidade do titular da EIRELI é limitada.Como fazer - O cadastro da EIRELI é feito na Junta Comercial Vantagens - Não misturar a responsabilidade da empresa e do titular e não possuir limite de faturamento. Lembrando que este material é informativo e não substitui em nenhuma instância o papel de um contador. Procure sempre auxílio de um profissional de sua confiança."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Mais de três meses no vermelho e agora?",
+      "data": "30/09/2018",
+      "subtitulo": "É de conhecimento público que por conta da crise que o país apresentou nestes últimos tempos, ou não, muitas empresas acabaram se endividando e ficando no vermelho. Na hora dessa negatividade no caixa muitos são os empresários que querem resolver isto, mas partindo por um caminho errado: encontrar o culpado! Hoje te apresento o certo: encontrar as razões que levaram a empresa a esse estado, lembrando que não é de uma hora para outra que isso acontece, você recebe sinais de que algo não está indo bem ao decorrer do tempo. Muitas vezes esses problemas são gerados por conta da administração que fica nas mãos da família que operam o negócio sem nenhum profissionalismo. Sendo assim, seguem cinco frases que vão te fazer repensar para mudar a cor do seu caixa para azul:"
+    },
+    {
+      "subPostagem": [{
+          "id": 1,
+          "titulo": "1- Não tem jeito, reduza os custos!",
+          "texto": "A primeira coisa que você deve fazer é analisar bem os custos, e entender que um bom gestor deve utilizar bom senso para encontrar o erro e a partir dele ser criativo para trazer soluções rápidas e de baixo custo. Dobrar a atenção a todo o dinheiro que entra, bem como tudo o que sai. Essa é uma alternativa."
+        },
+        {
+          "id": 2,
+          "titulo": "2- Custo x Despesa",
+          "texto": "Analise tudo aquilo que se investe para a produção ou aquisição do produto que você quer comercializar, e se as despesas são mesmo necessárias ou se são extras. Faça uma lista para que visualmente você entenda o que é essencial e o que está te levando para baixo."
+        },
+        {
+          "id": 3,
+          "titulo": "3- Relacionamento da equipe",
+          "texto": "Quando está tudo bem na empresa, é importantíssimo que a equipe esteja alinhada e se relacione bem, tanto o gestor quando o funcionário, pois empresa composta por gente feliz, cresce e vai bem. E isso não pode ser diferente em tempos de crise, o financeiro e a direção da empresa: engajados com tudo que está acontecendo. E falando em equipe, a próxima frase tem a ver com isso"
+        },
+        {
+          "id": 4,
+          "titulo": "4- Você colhe o que planta!",
+          "texto": "A empresa está no vermelho e o dinheiro não nasce com ela, o que nasceu dela foi a sua empatia e paixão, empreendedor! Passe esse amor para os seus funcionários, vista a camisa e ensine-os a amar a sua empresa como você ama. Não seja um “chefe” que só sabe mandar, seja um líder porque assim toda a empresa vai te acompanhar. E se isso não der certo..."
+        },
+        {
+          "id": 5,
+          "titulo": "5- Dê uma olhada na legislação empresarial",
+          "texto": "Algo que é real e antigo e muita gente não sabe é que a legislação empresarial não só regulamenta e dá multas como também direciona o empresário a sair do vermelho. Essa 'linda'foi utilizada por muitas empresas nos anos 90 auxiliando na organização das suas finanças. Hoje é conhecida como Recuperação Judicial e ajuda as empresas a sobreviverem por meio de ação judicial. O artigo 47 da lei no 11.101 / 2005, nas suas disposições gerais sobre a recuperação judicial diz: \"A recuperação judicial tem por objetivo viabilizar a superação da situação de crise econômico-financeira do devedor, a fim de permitir a manutenção da fonte produtora, do emprego dos trabalhadores e dos interesses dos credores, promovendo, assim, a preservação da empresa, sua função social e o estímulo à atividade econômica.\" Para não fechar as portas, pode ser uma saída recorrer a esses recursos. Para finalizar, vale ressaltar que qualquer atitude tem riscos, e que suas decisões não devem ser tomadas no achismo, pois isso também é uma das causas de empresas irem mal ou até mesmo falirem.           O principal insumo de um empreendedor é a informação, ou seja, um empreendedor bem informado, utiliza isso ao seu favor. Artigo 47 - https: //www.jusbrasil.com.br/topicos/10943409/artigo-47-da-lei-n-11101-de-09- de-fevereiro-de-2005 Lei 11.101 - https: //presrepublica.jusbrasil.com.br/legislacao/96893/lei-de-recuperacao-judicial-e-extrajudicial-e-de-falencia-lei-11101-05"
+        }
+      ]
+    }
+  ]
+}

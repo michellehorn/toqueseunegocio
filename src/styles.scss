@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url('assets/bootstrap/css/bootstrap.min.css');
+@import url('https://use.fontawesome.com/releases/v5.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+$font-primary: 'Roboto', 'sans serif';
+$font-secondary: 'Montserrat', 'sans serif';
+$standard-color: #4c4c4c;
+$dark-blue: #06374B;
+$lighter-blue-subtext: #76ABC1;
+
+
+.bg-dark-blue {
+    background-color: $dark-blue;
+}
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.titles {
+    font-family: $font-primary;
+    font-weight: bold;
+    color: #75aac0;
+}
+
+.data {
+    font-family: $font-primary;
+    font-style: italic;
+    color: $standard-color;
+}
+
+.author {
+    font-family: $font-primary;
+    color: $standard-color;
+    font-family: 20px;
+}
+
+.text {
+    font-family: $font-secondary;
+    color: $standard-color;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.container {
+    height: 100%;
+    padding: 0% 10%;
+}
+
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.send-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.justify-text {
+    justify-content: space-between;
+    justify-items: stretch;
+}
+
+
+body {
+    padding-top: 72px;
+    overflow-x: hidden;
+    @media (min-width: 992px) {
+        padding-top: 90px;
+    }
+}

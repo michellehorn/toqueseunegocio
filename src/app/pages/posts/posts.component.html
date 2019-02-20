@@ -1,0 +1,16 @@
+<section id="lista-posts">
+  <h3 class="titles">{{ titulo }}</h3>
+  <div *ngFor="let post of listaDePosts | async">
+    <div class="post"(click)="openPost(post)">
+      <div class="text-post">
+        <img src="../../../assets/images/{{post.imagem}}" >
+        <h2 class="titulo-post">{{post.titulo}}</h2>
+      </div>
+    </div>
+   
+  </div>
+  <div *ngIf="categoryNullMessage">
+    <span class="text-danger"><b>Ainda não temos artigos sobre esse assunto.</b></span>
+  </div>
+  <br><br>
+</section>

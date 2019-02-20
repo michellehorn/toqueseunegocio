@@ -1,0 +1,120 @@
+:host {
+    .cover {
+        justify-content: center;
+        margin-bottom: 30px;
+        img {
+            max-width: 100%;
+            height: auto;
+            align-self: center;
+        }
+        .img-desktop {
+            display: none;
+            @media (min-width: 992px) {
+                display: block;
+            }
+        }
+        .img-mobile {
+            @media (min-width: 992px) {
+                display: none;
+            }
+        }
+
+
+        .cover-container {
+            position: relative;
+        }
+
+        .webinar-container {
+            text-align: center;
+            background: #343a40;
+            padding: 30px 15px;
+            @media (min-width: 992px) {
+                padding: 0;
+                background: transparent;
+                position: absolute;
+                right: 100px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    
+    .photos {
+        text-align: center;
+        padding: 20px 0 10px;
+        min-width: 300px;
+        img {
+            display: inline-block;
+            width: 150px;
+            z-index: 1;
+            border-radius: 50%;
+            box-shadow: 1px 1px 10px white;
+            margin: 0 -14px;
+            position: relative;
+
+            &.first-photo {
+                z-index: 2;
+            }
+            
+            @media (min-width: 992px) {
+                margin: 0 -8px;
+                width: 100px;
+            }
+            @media (min-width: 1300px) {
+                margin: 0 -14px;
+                width: 150px;
+            }
+        }
+      }
+    }
+
+      .text-chamada {
+        font-weight: bolder;
+        z-index: 1;
+      }
+
+      .text-chamada > .title {
+        font-size: 40px;
+        font-family: 'Roboto', 'sans serif';
+        color: white;
+      }
+
+      .text-chamada > .text-info {
+        font-size: 18px;
+        font-family: 'Montserrat', 'sans serif';
+      }
+      .text-descricao {
+        font-size: 18px;
+        color: white;
+        text-shadow: 2px 2px 30px #06374B;
+        font-weight: lighter;
+        z-index: 1;
+        font-family: 'Montserrat', 'sans serif';
+      }
+
+
+      .btn-modal {
+        font-weight: bolder;
+        z-index: 1;
+        margin: 20px 0;
+        @media (min-width: 768px) {
+            margin: 0;
+        }
+      }
+
+      .text-full {
+          color: #fff;
+          @media (min-width: 992px) {
+            display: none;
+          }
+          @media (max-width:500px) {
+              padding: 10px;
+          }
+
+      }
+    .btn-modal > button {
+        border: 1px solid #75aac0;
+        color: #75aac0;
+        text-shadow: 1px 1px 3px black;
+    }
+
+}
